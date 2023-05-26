@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\PortafolioController::class, 'index']);
 
-
 Auth::routes();
 
 Route::resource('/proyectos',App\Http\Controllers\ProyectoController::class);
